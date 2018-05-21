@@ -9,9 +9,9 @@
         <relativePath/>
     </parent>
 
-    <groupId>io.github.jhipster.registry</groupId>
-    <artifactId>foshan-registry</artifactId>
-    <version>3.0.0</version>
+    <groupId>com.xxy</groupId>
+    <artifactId>reg</artifactId>
+    <version>0.0.1</version>
     <packaging>war</packaging>
     <name>foshan-registry</name>
     <description>JHipster service registry, made with Netflix Eureka and Spring Cloud Config</description>
