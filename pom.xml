@@ -526,9 +526,12 @@
                 <!--<artifactId>docker-maven-plugin</artifactId>-->
                 <!--<version>${docker-maven-plugin.version}</version>-->
                 <!--<configuration>-->
-                    <!--<dockerHost>http://193.112.161.157</dockerHost>-->
+                    <!--<dockerHost>http://193.112.161.157:2735</dockerHost>-->
                     <!--<imageName>${project.name}</imageName>-->
+                    <!--&lt;!&ndash;<serverId>xxyService</serverId>&ndash;&gt;-->
+                    <!--<baseImage>java</baseImage>-->
                     <!--<dockerDirectory>src/main/docker</dockerDirectory>-->
+                    <!--<entryPoint>["java", "-jar", "/${project.build.finalName}.war"]</entryPoint>-->
                     <!--<forceTags>true</forceTags>-->
                     <!--<imageTags>-->
                         <!--<imageTag>latest</imageTag>-->

@@ -117,7 +117,7 @@ security:
 # to have type-safe configuration, like in the JHipsterProperties above
 #
 # More documentation is available at:
-# http://www.jhipster.tech/common-application-properties/
+# http://www.jhipster.tech/common-application-properties
 # ===================================================================
 
 application:
